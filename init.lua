@@ -30,3 +30,5 @@ require('lint').linters_by_ft = {
    latex = {'vale',}
 }
 require("formatter").setup()
+
+require('Comment').setup()

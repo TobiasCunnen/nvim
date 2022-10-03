@@ -46,6 +46,13 @@ require('packer').startup(function(use)
   use "mfussenegger/nvim-lint"
   use "mhartington/formatter.nvim"
 
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+  }
+
   if install_plugins then
     require('packer').sync()
   end
