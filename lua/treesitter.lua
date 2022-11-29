@@ -17,5 +17,5 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 
---vim.opt.foldmethod = "expr"
+vim.opt.foldmethod = "marker"
 --vim.opt.foldexpr = "nvim_treesitter#foldexpr()"

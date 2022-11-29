@@ -46,6 +46,7 @@ require('packer').startup(function(use)
   use "mfussenegger/nvim-lint"
   use "mhartington/formatter.nvim"
 
+  -- Commenter shortcut
   use {
     'numToStr/Comment.nvim',
     config = function()
