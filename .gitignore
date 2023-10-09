@@ -1,4 +1,4 @@
 .luarc.json
-package-lock.json
+*-lock.json
 plugin
 spell
