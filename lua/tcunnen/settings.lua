@@ -36,3 +36,6 @@ vim.o.showmode = false
 vim.opt.listchars = {
     trail = "-",
 }
+
+-- Keep signcolumn on by default
+vim.wo.signcolumn = 'yes'
