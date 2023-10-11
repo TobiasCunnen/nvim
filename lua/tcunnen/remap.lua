@@ -21,6 +21,12 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 vim.keymap.set("n", "<leader>rf", vim.lsp.buf.format)
 
-vim.keymap.set("n", "<leader>mt", "<cmd>Gvdiffsplit!<CR>", {desc = "Use [M]erge [T]ool"})
+-- Better mergetool mappings
 vim.keymap.set("n", "gh", "<cmd>diffget //2<CR>")
 vim.keymap.set("n", "gl", "<cmd>diffget //3<CR>")
+
+-- Remap window switching
+vim.keymap.set("n", "H", ":wincmd h<CR>")
+vim.keymap.set("n", "K", ":wincmd k<CR>")
+vim.keymap.set("n", "J", ":wincmd j<CR>")
+vim.keymap.set("n", "L", ":wincmd l<CR>")
