@@ -8,4 +8,4 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {desc = "[F]ind all files in 
 vim.keymap.set('n', '<leader>sh', builtin.help_tags, {desc = "[S]earch [H]elp tags"})
 vim.keymap.set('n', '<leader>sg', builtin.live_grep, {desc = "[S]earch with [G]rep"})
 vim.keymap.set('n', '<leader>sd', builtin.diagnostics, {desc = "[S]earch [D]iagnostic"})
-vim.keymap.set('n', '<leader>km', builtin.keymaps, {desc = "[S]earch [D]iagnostic"})
+vim.keymap.set('n', '<leader>km', builtin.keymaps, {desc = "[K]ey[M]aps"})
