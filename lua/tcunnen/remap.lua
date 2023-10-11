@@ -20,3 +20,7 @@ vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 vim.keymap.set("n", "<leader>rf", vim.lsp.buf.format)
+
+vim.keymap.set("n", "<leader>mt", "<cmd>Gvdiffsplit!<CR>", {desc = "Use [M]erge [T]ool"})
+vim.keymap.set("n", "gh", "<cmd>diffget //2<CR>")
+vim.keymap.set("n", "gl", "<cmd>diffget //3<CR>")
