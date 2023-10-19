@@ -39,3 +39,6 @@ vim.opt.listchars = {
 
 -- Keep signcolumn on by default
 vim.wo.signcolumn = 'yes'
+
+-- Set line wrap
+vim.opt.wrap = false
